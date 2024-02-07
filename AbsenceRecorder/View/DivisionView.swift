@@ -7,14 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var divisions: [Division]
+struct DivisionView: View {
+
+    @EnvironmentObject var state: StateController
     @State private var currentDate: Date = Date()
     
     var body: some View {
         NavigationView {
-            List(divisions, id: \.self.code) { division in
-              DivisionItem(division: division)
+            List(state.divisions, id: \.self.code) { division in
+                NavigationLink(destination: AbsenceView(division: division)){
+                    DivisionItem(division: division)
+                }
             }.navigationTitle(currentDate.getShortDate())
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -22,10 +25,12 @@ struct ContentView: View {
                         Image(systemName: "arrow.backward")
                     }
                 }
+
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: {  currentDate = Date() }) {
+                    DatePicker(selection: $currentDate,displayedComponents: [.date]){
                         Image(systemName: "calendar")
                     }
+               
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {  currentDate = currentDate.nextDay() }) {
@@ -40,6 +45,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(divisions: Division.examples)
+        DivisionView()
+            .environmentObject(StateController())
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4774A2572B717E5300F17EBA /* AbsenceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2562B717E5300F17EBA /* AbsenceRecorderApp.swift */; };
-		4774A2592B717E5300F17EBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2582B717E5300F17EBA /* ContentView.swift */; };
+		4774A2592B717E5300F17EBA /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2582B717E5300F17EBA /* DivisionView.swift */; };
 		4774A25B2B717E5800F17EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4774A25A2B717E5800F17EBA /* Assets.xcassets */; };
 		4774A25E2B717E5800F17EBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4774A25D2B717E5800F17EBA /* Preview Assets.xcassets */; };
 		4774A2682B717E5800F17EBA /* AbsenceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2672B717E5800F17EBA /* AbsenceRecorderTests.swift */; };
@@ -18,6 +18,10 @@
 		4774A2882B7183AF00F17EBA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2872B7183AF00F17EBA /* Date.swift */; };
 		4774A28A2B71861D00F17EBA /* AbsenceRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2732B717E5800F17EBA /* AbsenceRecorderUITestsLaunchTests.swift */; };
 		4774A28C2B7188E900F17EBA /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A28B2B7188E900F17EBA /* DivisionItem.swift */; };
+		47B0FE3C2B73EEC800CEDF8A /* AbsenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0FE3B2B73EEC800CEDF8A /* AbsenceView.swift */; };
+		47B0FE3E2B73F2C700CEDF8A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0FE3D2B73F2C700CEDF8A /* RootTabView.swift */; };
+		47B0FE402B73F36300CEDF8A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0FE3F2B73F36300CEDF8A /* StatisticsView.swift */; };
+		47B0FE422B73F57D00CEDF8A /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0FE412B73F57D00CEDF8A /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 /* Begin PBXFileReference section */
 		4774A2532B717E5300F17EBA /* AbsenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4774A2562B717E5300F17EBA /* AbsenceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderApp.swift; sourceTree = "<group>"; };
-		4774A2582B717E5300F17EBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4774A2582B717E5300F17EBA /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
 		4774A25A2B717E5800F17EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4774A25D2B717E5800F17EBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4774A2632B717E5800F17EBA /* AbsenceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,10 @@
 		4774A2842B717F5300F17EBA /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		4774A2872B7183AF00F17EBA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		4774A28B2B7188E900F17EBA /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
+		47B0FE3B2B73EEC800CEDF8A /* AbsenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceView.swift; sourceTree = "<group>"; };
+		47B0FE3D2B73F2C700CEDF8A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		47B0FE3F2B73F36300CEDF8A /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		47B0FE412B73F57D00CEDF8A /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 				4774A2812B717E8800F17EBA /* View */,
 				4774A2802B717E7B00F17EBA /* Model */,
 				4774A2562B717E5300F17EBA /* AbsenceRecorderApp.swift */,
+				47B0FE412B73F57D00CEDF8A /* StateController.swift */,
 				4774A25A2B717E5800F17EBA /* Assets.xcassets */,
 				4774A25C2B717E5800F17EBA /* Preview Content */,
 			);
@@ -149,8 +158,11 @@
 		4774A2812B717E8800F17EBA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4774A2582B717E5300F17EBA /* ContentView.swift */,
+				4774A2582B717E5300F17EBA /* DivisionView.swift */,
 				4774A28B2B7188E900F17EBA /* DivisionItem.swift */,
+				47B0FE3B2B73EEC800CEDF8A /* AbsenceView.swift */,
+				47B0FE3D2B73F2C700CEDF8A /* RootTabView.swift */,
+				47B0FE3F2B73F36300CEDF8A /* StatisticsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,12 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4774A2592B717E5300F17EBA /* ContentView.swift in Sources */,
+				4774A2592B717E5300F17EBA /* DivisionView.swift in Sources */,
 				4774A2882B7183AF00F17EBA /* Date.swift in Sources */,
+				47B0FE3E2B73F2C700CEDF8A /* RootTabView.swift in Sources */,
 				4774A2832B717EFB00F17EBA /* Student.swift in Sources */,
+				47B0FE402B73F36300CEDF8A /* StatisticsView.swift in Sources */,
 				4774A2852B717F5300F17EBA /* Division.swift in Sources */,
 				4774A2572B717E5300F17EBA /* AbsenceRecorderApp.swift in Sources */,
 				4774A28C2B7188E900F17EBA /* DivisionItem.swift in Sources */,
+				47B0FE3C2B73EEC800CEDF8A /* AbsenceView.swift in Sources */,
+				47B0FE422B73F57D00CEDF8A /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
