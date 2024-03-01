@@ -18,7 +18,10 @@ struct DivisionView: View {
                 NavigationLink(destination: AbsenceView(absence:division.createAbsenceOrGetExistingIfAvailable(for: currentDate))){
                     DivisionItem(division: division)
                 }
-            }.navigationTitle(currentDate.getShortDate())
+            }.onAppear(perform: {
+                state.saveToFile()
+            })
+            .navigationTitle(currentDate.getShortDate())
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {  currentDate = currentDate.previousDay() }) {

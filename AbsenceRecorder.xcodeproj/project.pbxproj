@@ -30,6 +30,7 @@
 		C901E3062B8D3EB4004B1615 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774A2842B717F5300F17EBA /* Division.swift */; };
 		C901E3072B8D3EB7004B1615 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901E2FD2B8D257E004B1615 /* StudentAbsence.swift */; };
 		C901E3082B8D3EB9004B1615 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901E2FF2B8D273F004B1615 /* Absence.swift */; };
+		C910038F2B91E3C800D92FDF /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910038E2B91E3C800D92FDF /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		C901E2FD2B8D257E004B1615 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		C901E2FF2B8D273F004B1615 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 		C901E3012B8D3DA6004B1615 /* DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTests.swift; sourceTree = "<group>"; };
+		C910038E2B91E3C800D92FDF /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				4774A2872B7183AF00F17EBA /* Date.swift */,
+				C910038E2B91E3C800D92FDF /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				4774A2592B717E5300F17EBA /* DivisionView.swift in Sources */,
 				4774A2882B7183AF00F17EBA /* Date.swift in Sources */,
 				47B0FE3E2B73F2C700CEDF8A /* RootTabView.swift in Sources */,
+				C910038F2B91E3C800D92FDF /* FileManager.swift in Sources */,
 				C901E2FE2B8D257E004B1615 /* StudentAbsence.swift in Sources */,
 				4774A2832B717EFB00F17EBA /* Student.swift in Sources */,
 				C901E2FC2B8D22E9004B1615 /* AbsenceItem.swift in Sources */,
